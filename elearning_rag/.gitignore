@@ -1,0 +1,32 @@
+# Environnement virtuel
+.venv/
+venv/
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# Variables d'environnement
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Données générées
+chroma_db/
+chromadb/
+data/
+output/
+outputs/
+temp/
+
+# Modèles téléchargés (si présents)
+models/
+
+# Fichiers système
+.DS_Store
+Thumbs.db

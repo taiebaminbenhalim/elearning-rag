@@ -1,0 +1,31 @@
+# Langage : Python 3.12+
+
+# Prétraitement PDF
+pymupdf>=1.24.0
+pillow>=10.0.0
+
+# Traitement d'image
+opencv-python-headless>=4.9.0
+
+# OCR
+pytesseract>=0.3.10
+numpy>=1.26.0
+
+# Chunking
+langchain-experimental>=0.0.60
+langchain-core>=0.2.0
+
+# Embeddings
+sentence-transformers>=3.0.0
+
+# Base vectorielle
+chromadb>=0.5.0
+
+# API (optionnelle, couche fine au-dessus du pipeline)
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+
+# Tests
+pytest>=8.0.0
+pytest-mock>=3.14.0
